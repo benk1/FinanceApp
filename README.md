@@ -1,1 +1,1 @@
-## This is react app with Firebase as backend
+## This is Finances react app powered by Firebase as backend
