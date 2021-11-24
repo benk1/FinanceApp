@@ -7,7 +7,11 @@ import TransactionList from './TransactionList';
 
 function Home(props) {
 	const { user } = useAuthContext();
-	const { documents, error } = useCollection('transactions');
+	const { documents, error } = useCollection(
+		'transactions',
+		['uid', '==', user.uid],
+		['createdAt', 'desc']
+	);
 	return (
 		<div className={classes.container}>
 			<div className={classes.content}>

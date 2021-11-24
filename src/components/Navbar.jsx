@@ -28,7 +28,9 @@ function Navbar(props) {
 
 				{user && (
 					<>
-						<li>Hello, {user.displayName}</li>
+						<li>
+							<h4>Welcome, {user.displayName}</h4>
+						</li>
 						<li>
 							<button className="btn" onClick={logout}>
 								Logout

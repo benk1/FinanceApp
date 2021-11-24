@@ -12,6 +12,7 @@
 	align-items: center;
 }
 .title {
+	color: #1f9751;
 	margin-right: auto;
 	font-weight: bold;
 	letter-spacing: 1px;
@@ -24,4 +25,7 @@
 .navbar a {
 	color: #333;
 	text-decoration: none;
+}
+h4 {
+	color: #1f9751;
 }
