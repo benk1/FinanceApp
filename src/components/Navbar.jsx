@@ -10,7 +10,9 @@ function Navbar(props) {
 	return (
 		<nav className={classes.navbar}>
 			<ul>
-				<li className={classes.title}>myFinances</li>
+				<li className={classes.title}>
+					<Link to="/">myFinances</Link>
+				</li>
 
 				{!user && (
 					<>
